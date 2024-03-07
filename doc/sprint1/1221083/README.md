@@ -1,4 +1,4 @@
-# RCOMP 2022-2023 Project - Sprint 1 - Member 1221083 Folder
+# RCOMP 2023-2024 Project - Sprint 1 - Member 1221083 Folder
 
 Within the subject of Redes de Computadores (RCOMP) each group member got a building to work in. In this report, let's work on the cable structured of the Building 1.
 
@@ -17,7 +17,7 @@ Since both Floor 0 and Floor 1 has more than 15 meters of diameter, 2 AP will be
 As defined by the team in the Planning section:
 
 - Copper cables will be **Category 7 (CAT7) Copper Cables**. 
-- Fiber cables will be **Optical Fiber Cables**.
+- Fiber cables will be **Monomode Fiber Cables**.
 
 The maximum distance of the Copper cables is **90** meters.
 
