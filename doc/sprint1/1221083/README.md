@@ -141,9 +141,8 @@ The order of outlets in relation to cable structure is: ⬇️ - ➡️ - ⬇️
 
 ##### Monomode Optical Fiber Cables
 
-- From **Backbone** to **Floor 0** -> 63,3 m + 519,1 m = **582,4 m**
-- From **Floor 0** to **ICC** -> **5,3 m**
-- From **ICC** to **HCC** -> **1,4 m**
+- From **Backbone** to **Floor 0** -> **63,3 m**
+- From **Floor 0** to **HCC** -> **7,9 m**
 
 #### Floor 1
 
@@ -177,7 +176,7 @@ The order of outlets in relation to cable structure is: ⬇️ - ➡️ - ⬇️
 
 #### Floor 0
 
--   **40 + 2 (ICC to HCC)**
+-   **40 + 2 (HCC)**
 
 #### Floor 1
 
@@ -203,7 +202,6 @@ The order of outlets in relation to cable structure is: ⬇️ - ➡️ - ⬇️
 
 40 outlets are available on this floor, so a minimum of **two 24 patch panels** (or four 12 patch panels) are needed. To distribute the patch panels as best as possible, the following was placed:
 
-- 1 patch panel of **12 ports** (ICC)
 - 1 patch panel of **24 ports** (HCC)
 - 1 patch panel of **36 ports** (room 1.0.4)
 - 1 patch panel of **24 ports** (room 1.0.2)
@@ -227,14 +225,13 @@ The order of outlets in relation to cable structure is: ⬇️ - ➡️ - ⬇️
 
 #### Floor 0
 
-For the **Horizontal Cross-Connect** and **Intermediate Cross-Connect**:
+For the **Horizontal Cross-Connect**:
 
 - **1U** for 1 copper patch panel of 24 ports (HCC)
-- **1U** for 1 fiber patch panel of 12 ports (ICC)
 - **1U** for expected corresponding switches
-- **3U** an additional 100% over dimensioning
+- **2U** an additional 100% over dimensioning
 
-Total: **6U**
+Total: **4U**
 
 For the two **Consolidation Point (24 ports)**
 
@@ -284,6 +281,6 @@ Total: **6U** - Commercially available telecommunications enclosures is actually
 
 | Floor     | No. of outlets | CAT-7 Copper Cables (m) | Monomode Fiber Cables (m) | Patch-Cords (0,5 m) | User-Cords (5 m) | Patch panels (12) | Patch panels (24) | Patch panels (36) | Telecommunication Enclosures | AP | CP (24) | CP (36) | Switches |
 |-----------|----------------|-------------------------|---------------------------|---------------------|------------------|-------------------|-------------------|-------------------|------------------------------|----|---------|---------|----------|
-| 0         | 40             | 419,4                   | 589,1                     | 42                  | 40               | 1                 | 3                 | 1                 | 4                            | 2  | 2       | 1       | 5        |
+| 0         | 40             | 419,4                   | 70,0                      | 42                  | 40               | 0                 | 3                 | 1                 | 4                            | 2  | 2       | 1       | 5        |
 | 1         | 52             | 574,6                   | 10,4                      | 54                  | 52               | 3                 | 3                 | 1                 | 6                            | 2  | 3       | 1       | 6        |
-| **Total** | 92             | 994,0                   | 599,5                     | 96                  | 92               | 4                 | 6                 | 2                 | 10                           | 4  | 5       | 2       | 11       |
+| **Total** | 92             | 994,0                   | 80,4                      | 96                  | 92               | 3                 | 6                 | 2                 | 10                           | 4  | 5       | 2       | 11       |
