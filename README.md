@@ -1,29 +1,11 @@
-# README #
+# RCOMP 2023-2024 Project
 
-This README would normally document whatever steps are necessary to get your application up and running.
+- #### Class: 2DJ
+- #### Group: 4
 
-### What is this repository for? ###
+## Resources
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+| Sprints | Access Files                                                            |
+|---------|-------------------------------------------------------------------------|
+| 1       | [Planning](doc/sprint1/planning.md)<br/>[Review](doc/sprint1/review.md) |
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
