@@ -55,11 +55,12 @@ In this building, we will use **24 ports**, **36 ports** and **48** Consolidatio
 
 
 
-
-
 ## Measurements
 
 ### Ground Floor
+![Building_4_Ground_Floor_Measurements.svg](Building_4_Ground_Floor_Measurements.svg)
+
+    Rooms 4.0.3, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.8, 4.0.9, 4.0.10 and 4.0.11 are all the same size.
 
 #### No. of outlets
 
@@ -85,8 +86,12 @@ In this building, we will use **24 ports**, **36 ports** and **48** Consolidatio
 -   68 + 3 (Access Points) = 71
 
 ### Floor 1
+![Building_4_First_Floor_Measurements.svg](Building_4_First_Floor_Measurements.svg)
 
-#### Measurements
+    Rooms 4.1.2 and 4.1.3 are the same size.
+    Rooms 4.1.4, 4.1.5, 4.1.6, 4.1.7, 4.1.8, 4.1.9, 4.1.10 are all the same size.
+    Rooms 4.1.11 and 4.1.12 are the same size.
+    Rooms 4.1.13, 4.1.14, 4.1.15, 4.1.16, 4.1.17, 4.1.18 are all the same size.
 
 #### No. of outlets
 
