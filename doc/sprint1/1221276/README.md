@@ -8,7 +8,8 @@ Within the subject of Redes de Computadores (RCOMP) each group member got a buil
 
 ### Access Point
 
-To be able to get WI-FI network on every floor, we have decided to implement Access Points that, individually, cover 15 meters of diameter.
+To be able to get WI-FI network on every floor, we have decided to implement Access Points that, individually, cover 50 meters of diameter.
+As walls and other obstacles can reduce this range, we will consider 20-30 meters as the maximum range for each Access Point.
 
 Since the building is about 30 meters long, and 30 meters wide, we would need **3** Access Points on the ground floor. Due to the 
 fact that each AP can uphold about 30 users, we will need **4** Access Points in the first floor.
@@ -154,6 +155,7 @@ The order of outlets in relation to cable structure is: ⬇️ - ➡️ - ⬇️
 
 ##### Monomode Fiber Cables
 
+From **MCC(Building 1)** to **ICC** -> **261,56 m**
 From **ICC** to **HCC** -> **1,09 m**
 
 #### Floor 1
@@ -318,7 +320,6 @@ Total: **6U**
 
 | Floor | No. of outlets | CAT-7 Copper Cables (m) | Monomode Fiber Cables (m) | Patch-Cords (0,5 m) | User-Cords (5 m) | Patch panels (12) | Patch panels (24) | Patch panels (36) | Patch Panels (48) | Telecommunication Enclosures | AP | CP (24) | CP (36) | CP (48) | Switches |
 |-------|----------------|-------------------------|---------------------------|---------------------|------------------|-------------------|-------------------|-------------------|-------------------|------------------------------|----|---------|---------|---------|----------|
-| 0     | 71             | 648,07                  | 1,09                      | 71                  | 68               | 2                 | 2                 | 1                 | 0                 | 4                            | 3  | 2       | 1       | 0       | 5        |
+| 0     | 71             | 648,07                  | 262,65                    | 71                  | 68               | 2                 | 2                 | 1                 | 0                 | 4                            | 3  | 2       | 1       | 0       | 5        |
 | 1     | 128            | 1.010,57                | 4,10                      | 128                 | 124              | 1                 | 0                 | 3                 | 1                 | 4                            | 4  | 0       | 3       | 1       | 6        |
-
 
