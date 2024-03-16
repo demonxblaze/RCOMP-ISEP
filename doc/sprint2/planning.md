@@ -28,6 +28,15 @@ The Packet Tracer simulation will be developed using the following guidelines:
 - Every building will have a separate Packet Tracer file, that should be named as follows: `buildingN.pkt`, where `N` is the building number.
 - All configuration files should be exported as a `.txt` file and stored in the repository.
 
+## Device Naming Convention
+
+The devices display names and hostnames should be named according to the following convention:
+XXXN-FRR, where:
+- `XXX` is the device type (`CP` for Consolidation Points, `HCC` for Horizontal Cross Connects, `ICC` for Intermediate Cross Connect,`RT` for routers, etc...)
+- `N` is the building number
+- `F` is the floor number
+- `R` is the room number
+
 ## VLAN Distribution And VTP Domain
 
 **Available VLANs:** 406 – 427
