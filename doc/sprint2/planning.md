@@ -21,9 +21,71 @@
 
 **T.2.4** - **1221276**
 
+## Packet Tracer Simulation
+
+The Packet Tracer simulation will be developed using the following guidelines:
+- Version: Packet Tracer 8.2.1.118
+- Every building will have a separate Packet Tracer file, that should be named as follows: `buildingN.pkt`, where `N` is the building number.
+- All configuration files should be exported as a `.txt` file and stored in the repository.
+
+## VLAN Distribution And VTP Domain
+
+**Available VLANs:** 406 – 427
+
+**VTP Domain Name:** `r2324djg4`
+
+### VLAN Distribution
+
+#### Campus Backbone
+
+| Network  | VLAN ID | VLAN Name     |
+|----------|---------|---------------|
+| Backbone | 427     | Backbone VLAN |
+
+#### Building 1
+
+| Network       | VLAN ID | VLAN Name                |
+|---------------|---------|--------------------------|
+| Ground Floor  | 406     | GF Building 1 VLAN       |
+| 1st Floor     | 407     | FF Building 1 VLAN       |
+| Wi-fi Network | 408     | Wireless Building 1 VLAN |
+| DMZ           | 409     | DMZ Building 1 VLAN      |
+| VOIP          | 410     | VOIP Building 1 VLAN     |
+
+#### Building 2
+
+| Network       | VLAN ID | VLAN Name                |
+|---------------|---------|--------------------------|
+| Ground Floor  | 411     | GF Building 2 VLAN       |
+| 1st Floor     | 412     | FF Building 2 VLAN       |
+| Wi-fi Network | 413     | Wireless Building 2 VLAN |
+| DMZ           | 414     | DMZ Building 2 VLAN      |
+| VOIP          | 415     | VOIP Building 2 VLAN     |
+    
+#### Building 3
+
+| Network       | VLAN ID | VLAN Name                |
+|---------------|---------|--------------------------|
+| Ground Floor  | 416     | GF Building 3 VLAN       |
+| 1st Floor     | 417     | FF Building 3 VLAN       |
+| Wi-fi Network | 418     | Wireless Building 3 VLAN |
+| DMZ           | 419     | DMZ Building 3 VLAN      |
+| VOIP          | 420     | VOIP Building 3 VLAN     |
+
+#### Building 4
+
+| Network               | VLAN ID | VLAN Name                |
+|-----------------------|---------|--------------------------|
+| Ground Floor          | 421     | GF Building 4 VLAN       |
+| 1st Floor             | 422     | FF Building 4 VLAN       |
+| Wi-fi Network         | 423     | Wireless Building 4 VLAN |
+| DMZ                   | 424     | DMZ Building 4 VLAN      |
+| VOIP                  | 425     | VOIP Building 4 VLAN     |
+
+
 ## Building IP Addressing
 
-    Base IP Address: 172.25.32.0 /20
+**Base IP Address:** `172.25.32.0 /20`
 
 | Network               | IP Address  | Subnet Mask Prefix |
 |-----------------------|-------------|--------------------|
