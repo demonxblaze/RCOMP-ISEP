@@ -1,6 +1,6 @@
 # RCOMP 2023-2024 Project - Sprint 2 - Member 1221083 Folder
 
-## VLAN database and IPv4 address
+## VLAN database and IPv4 network
 
 | Network       | VLAN ID | VLAN Name                | Total of Nodes | IP Address       | First Host    | Last Host     | Broadcast     | Sub-netting mask |
 |---------------|---------|--------------------------|----------------|------------------|---------------|---------------|---------------|------------------|
