@@ -105,6 +105,17 @@ XXXN-FRR, where:
 
 ## Subnetting
 
+### Connection between buildings
+
+| Connection | IP Address   | Subnet Mask Prefix |
+|------------|--------------|--------------------|
+| B1-B2      | 172.25.32.0  | /30                |
+| B1-B3      | 172.25.32.4  | /30                |
+| B1-B4      | 172.25.32.8  | /30                |
+| B2-B3      | 172.25.32.12 | /30                |
+| B2-B4      | 172.25.32.16 | /30                |
+| B3-B4      | 172.25.32.20 | /30                |
+
 ### Building 1
 
 | Network                  | IP Address    | Subnet Mask Prefix |
@@ -113,7 +124,7 @@ XXXN-FRR, where:
 | 1st Floor (50 Nodes)     | 172.25.33.64  | /26                |
 | Wi-fi Network (80 Nodes) | 172.25.33.128 | /25                |
 | DMZ (100 Nodes)          | 172.25.34.0   | /25                |
-| VOIP (67 Nodes)          | 172.25.34.128 | /26                |
+| VOIP (67 Nodes)          | 172.25.34.128 | /25                |
 | Backbone (200 Nodes)     | 172.25.32.0   | /24                |
 
 ### Building 2
@@ -145,3 +156,4 @@ XXXN-FRR, where:
 | Wi-fi Network (190 Nodes) | 172.25.46.0   | /24                |
 | DMZ (40 Nodes)            | 172.25.44.128 | /26                |
 | VOIP (170 Nodes)          | 172.25.47.0   | /24                |
+
