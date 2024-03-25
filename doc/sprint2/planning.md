@@ -105,17 +105,6 @@ XXXN-FRR, where:
 
 ## Subnetting
 
-### Connection between buildings
-
-| Connection | IP Address   | Subnet Mask Prefix |
-|------------|--------------|--------------------|
-| B1-B2      | 172.25.32.0  | /30                |
-| B1-B3      | 172.25.32.4  | /30                |
-| B1-B4      | 172.25.32.8  | /30                |
-| B2-B3      | 172.25.32.12 | /30                |
-| B2-B4      | 172.25.32.16 | /30                |
-| B3-B4      | 172.25.32.20 | /30                |
-
 ### Building 1
 
 | Network                  | IP Address    | Subnet Mask Prefix |
