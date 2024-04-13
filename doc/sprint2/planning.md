@@ -123,8 +123,8 @@ XXXN-FRR, where:
 | Ground Floor (90 Nodes)   | 172.25.36.0   | /25                |
 | 1st Floor (120 Nodes)     | 172.25.36.128 | /25                |
 | Wi-fi Network (220 Nodes) | 172.25.37.0   | /24                |
-| DMZ (50 Nodes)            | 172.25.38.0   | /26                |
-| VOIP (110 Nodes)          | 172.25.38.64  | /25                |
+| DMZ (50 Nodes)            | 172.25.38.128 | /26                |
+| VOIP (110 Nodes)          | 172.25.38.0   | /25                |
 
 ### Building 3
 
