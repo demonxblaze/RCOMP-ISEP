@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname R2
+hostname RT2
 !
 !
 !
@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017Q350-
+license udi pid CISCO2811/K9 sn FTX1017EG39-
 !
 !
 !
@@ -83,7 +83,7 @@ interface Vlan1
 router rip
 !
 ip classless
-ip route 172.24.32.0 255.255.252.0 172.25.32.1 
+ip route 172.25.32.0 255.255.252.0 172.25.32.1 
 ip route 172.25.44.0 255.255.252.0 172.25.32.4 
 ip route 0.0.0.0 0.0.0.0 172.25.32.254 
 !
