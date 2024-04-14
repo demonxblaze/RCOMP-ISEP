@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname Router
+hostname R2
 !
 !
 !
@@ -19,7 +19,7 @@ no ipv6 cef
 !
 !
 !
-license udi pid CISCO2811/K9 sn FTX1017C879-
+license udi pid CISCO2811/K9 sn FTX1017Q350-
 !
 !
 !
@@ -48,7 +48,6 @@ interface FastEthernet0/1
  no ip address
  duplex auto
  speed auto
- shutdown
 !
 interface FastEthernet1/0
  no ip address
@@ -84,7 +83,9 @@ interface Vlan1
 router rip
 !
 ip classless
-ip route 0.0.0.0 0.0.0.0 10.80.40.1 
+ip route 172.24.32.0 255.255.252.0 172.25.32.1 
+ip route 172.25.44.0 255.255.252.0 172.25.32.4 
+ip route 0.0.0.0 0.0.0.0 172.25.32.254 
 !
 ip flow-export version 9
 !

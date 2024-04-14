@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname Switch
+hostname HCC2-011
 !
 !
 !
@@ -20,11 +20,11 @@ interface GigabitEthernet0/1
 interface GigabitEthernet1/1
  switchport mode trunk
 !
-interface FastEthernet2/1
+interface GigabitEthernet2/1
  switchport mode trunk
 !
 interface GigabitEthernet3/1
- switchport access vlan 349
+ switchport mode trunk
 !
 interface GigabitEthernet4/1
  switchport mode trunk

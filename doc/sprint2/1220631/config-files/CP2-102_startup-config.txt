@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname Switch
+hostname CP2-102
 !
 !
 !
@@ -20,10 +20,10 @@ interface GigabitEthernet1/1
  switchport access vlan 413
 !
 interface GigabitEthernet2/1
- switchport access vlan 346
+ switchport access vlan 412
 !
 interface GigabitEthernet3/1
- switchport access vlan 411
+ switchport access vlan 347
 !
 interface Vlan1
  no ip address

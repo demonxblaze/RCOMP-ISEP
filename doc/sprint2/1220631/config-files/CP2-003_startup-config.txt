@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname Switch
+hostname CP2-003
 !
 !
 !
@@ -17,22 +17,13 @@ spanning-tree extend system-id
 interface GigabitEthernet0/1
 !
 interface GigabitEthernet1/1
- switchport mode trunk
+ switchport access vlan 413
 !
 interface GigabitEthernet2/1
- switchport mode trunk
+ switchport access vlan 414
 !
 interface GigabitEthernet3/1
- switchport mode trunk
-!
-interface GigabitEthernet4/1
- switchport mode trunk
-!
-interface GigabitEthernet5/1
- switchport mode trunk
-!
-interface GigabitEthernet6/1
- switchport mode trunk
+ switchport access vlan 411
 !
 interface Vlan1
  no ip address
