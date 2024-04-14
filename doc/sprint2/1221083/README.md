@@ -22,7 +22,7 @@
 
 ### Building 1
 
-[Project (open with Cisco Packet Tracer)](building1.pkt)
+[Project (open with Cisco Packet Tracer)](building1)
 
 #### Image
 
@@ -76,4 +76,4 @@
 
 ### Campus
 
-[Project (open with the Cisco Packet Tracer)](campus.pkt)
+[Project (open with the Cisco Packet Tracer)](campus)
