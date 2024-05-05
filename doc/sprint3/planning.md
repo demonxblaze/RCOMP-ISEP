@@ -42,12 +42,12 @@ The Packet Tracer simulation will be developed using the following guidelines:
 
 ## HTTP Servers IP Addressing
 
-| Building | IP Address   | Subnet Mask Prefix |
-|----------|--------------|--------------------|
-| 1        | 172.25.34.1  | /25                |
-| 2        | 172.25.38.1  | /26                |
-| 3        | 172.25.40.1  | /26                |
-| 4        | 172.25.44.1  | /26                |
+| Building | IP Address  | Subnet Mask Prefix |
+|----------|-------------|--------------------|
+| 1        | 172.25.34.2 | /25                |
+| 2        | 172.25.38.1 | /26                |
+| 3        | 172.25.40.1 | /26                |
+| 4        | 172.25.44.1 | /26                |
 
 ## VOIP Service Configuration
 
