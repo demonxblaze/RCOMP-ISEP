@@ -59,10 +59,24 @@ The Packet Tracer simulation will be developed using the following guidelines:
 The server previously placed in the DMZ should be configured as a DNS server.
 The name of the servers should be ns.rcomp-23-24-2dj-g4 in **Building 1**, and ns.buildingN.rcomp-23-24-2dj-g4 in the other buildings.
 
-#### DNS Domain Names
+### DNS Domain Names
+
+#### Domain Name Servers
 
 - The root domain name should be **rcomp-23-24-2dj-g4**, and this will act as the domain name for **Building 1**.
 - The other buildings should have a local subdomain named as follows: `buildingN.rcomp-23-24-2dj-g4`, where `N` is the building number.
+- All DNS servers should have the unqualified DNS name ns, so for building 1 it will be ns.rcomp-23-
+  24-cc-gn, and for instance for building 3 it will be ns.building-3.rcomp-23-24-cc-gn.
+
+
+#### Web Server 
+
+- All HTTP servers are to be named as server1 (A record).
+- Within each DNS domain there should be a www alias (CNAME) mapped to the same domain’s server1
+  A record, and another alias, named web also mapped to the domain’s server1 A record.
+- One additional alias (CNAME), with name dns, and mapped to the domain’s ns A record, should also
+  exist.
+
 
 #### DNS Server IP Addressing
 
