@@ -86,3 +86,15 @@ The name of the servers should be ns.rcomp-23-24-2dj-g4 in **Building 1**, and n
 | 2        | 172.25.38.189 | /26                |
 | 3        | 172.25.40.189 | /26                |
 | 4        | 172.25.44.189 | /26                |
+
+### ACL's
+
+The ACL's should be configured in the routers accoring to the following guidelines:
+- Block all spoofing, as far as possible. Internal spoofing from local networks, the DMZ may be
+  excluded. External spoofing for traffic incoming from the backbone network. 
+- All ICMP echo requests and echo replies are always allowed.
+- All traffic to the DMZ is to be blocked, except for the DNS service and HTTP/HTTPS services
+  to the corresponding servers. Every traffic incoming from the DMZ is allowed.
+- All traffic directed to the router itself (with a destination IPv4 node address belonging to the
+  router) is to be blocked, except for the traffic required for the described features to work.
+- Remaining traffic passing through the router should be allowed
