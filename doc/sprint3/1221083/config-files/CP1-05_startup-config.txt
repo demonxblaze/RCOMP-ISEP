@@ -4,7 +4,7 @@ no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname CP1-05
+hostname Switch
 !
 !
 !
@@ -21,13 +21,13 @@ interface FastEthernet5/1
  switchport voice vlan 410
 !
 interface FastEthernet6/1
- switchport access vlan 409
+ switchport access vlan 408
 !
 interface FastEthernet7/1
  switchport access vlan 410
 !
 interface FastEthernet8/1
- switchport access vlan 406
+ switchport access vlan 409
 !
 interface FastEthernet9/1
 !
