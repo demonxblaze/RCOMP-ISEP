@@ -5,7 +5,7 @@ Project for the class of RCOMP
 ## Contributors
 
 - David Marques
-- Rodrigo Castro
+- Rodrigo Cardoso
 - Tomás Gonçalves
 
 ## Subjects
